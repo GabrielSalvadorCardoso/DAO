@@ -1,0 +1,9 @@
+create database escola;
+use escola;
+
+create table aluno(
+matricula int(8) not null,
+nome varchar(60) not null,
+sexo varchar(9) not null,
+primary key(matricula)
+);
